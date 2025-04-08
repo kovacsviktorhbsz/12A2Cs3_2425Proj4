@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Könyvtár"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="MainGrid">
+    <Grid x:Name="MainGrid" Background="#FF313131">
         <Grid.RowDefinitions>
             <RowDefinition Height="25"></RowDefinition>
             <RowDefinition Height="1*"></RowDefinition>
@@ -17,16 +17,16 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <ListBox Grid.Row="1" x:Name="DataListBox" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="DataListBox_SelectionChanged"></ListBox>
+        <ListBox Grid.Row="1" x:Name="DataListBox" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="DataListBox_SelectionChanged" Background="#FF505050"></ListBox>
         <ListBox Grid.Row="1" x:Name="DataBasesLB" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Collapsed" SelectionChanged="DataBasesLB_SelectionChanged"></ListBox>
 
-        <Menu x:Name="MainMenu" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Menu x:Name="MainMenu" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Background="#FF060606" Foreground="White">
             <MenuItem x:Name="MainMenuItem" Header="File">
-                <MenuItem Header="SelectDatabase" Click="SelectDB_Click"></MenuItem>
-                <MenuItem Header="Exit"  Click="Exit_Click"></MenuItem>
+                <MenuItem Header="SelectDatabase" Click="SelectDB_Click" Background="#FF060606" Foreground="White" BorderBrush="Purple"></MenuItem>
+                <MenuItem Header="Exit"  Click="Exit_Click" Background="#FF060606" Foreground="White" BorderBrush="Purple"></MenuItem>
             </MenuItem>
         </Menu>
-        <Menu x:Name="DynamicMenu" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Menu x:Name="DynamicMenu" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FF060606" Foreground="White">
             <MenuItem x:Name="DynamicMenuItem" Header="Tables">
 
             </MenuItem>
@@ -46,14 +46,14 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            
-            <Button Content="Modify" x:Name="ModifyBtn" Grid.Column="0" Grid.Row="0" Click="ModifyBtn_Click"></Button>
-            <Button Content="Ok" x:Name="AddOkBtn" Grid.Column="0" Grid.Row="0" Click="AOkBtn_Click" Visibility="Collapsed"></Button>
-            <Button Content="Ok" x:Name="ModifyOkBtn" Grid.Column="0" Grid.Row="0" Click="MOkBtn_Click" Visibility="Collapsed"></Button>
-            <Button Content="Remove" x:Name="RemoveBtn" Grid.Column="1" Grid.Row="0" Click="RemoveBtn_Click"></Button>
-            <Button Content="Cancel" x:Name="CancelBtn" Grid.Column="1" Grid.Row="0" Click="CancelBtn_Click" Visibility="Collapsed"></Button>
+
+            <Button Content="Modify" x:Name="ModifyBtn" Grid.Column="0" Grid.Row="0" Click="ModifyBtn_Click" Background="#FF232323" BorderBrush="#FFFF6900" Foreground="#FFFF6900"></Button>
+            <Button Content="Ok" x:Name="AddOkBtn" Grid.Column="0" Grid.Row="0" Click="AOkBtn_Click" Visibility="Collapsed" Background="#FF232323" BorderBrush="#FF1CE200" Foreground="#FF1CE200"></Button>
+            <Button Content="Ok" x:Name="ModifyOkBtn" Grid.Column="0" Grid.Row="0" Click="MOkBtn_Click" Visibility="Collapsed" Background="#FF232323" BorderBrush="#FF1CE200" Foreground="#FF1CE200"></Button>
+            <Button Content="Remove" x:Name="RemoveBtn" Grid.Column="1" Grid.Row="0" Click="RemoveBtn_Click" Background="#FF232323" BorderBrush="Red" Foreground="Red"></Button>
+            <Button Content="Cancel" x:Name="CancelBtn" Grid.Column="1" Grid.Row="0" Click="CancelBtn_Click" Visibility="Collapsed" Background="#FF232323" BorderBrush="Red" Foreground="Red"></Button>
         </Grid>
-        <Button Content="Add..." x:Name="AddBtn" Grid.Column="0" Grid.Row="2" Click="AddBtn_Click"></Button>
+        <Button Content="Add..." x:Name="AddBtn" Grid.Column="0" Grid.Row="2" Click="AddBtn_Click" Background="#FF232323" BorderBrush="#FF1CE200" Foreground="#FF1CE200"></Button>
 
         <Grid x:Name="AddGrid" Grid.Column="1" Grid.Row="1" Visibility="Collapsed">
             <Grid.RowDefinitions>

@@ -162,6 +162,9 @@ namespace Könyvtár
                     MenuItem MI = new MenuItem();
                     MI.Header = DB.TableNames[i];
                     this.DynamicMenuItem.Items.Add(MI);
+                    MI.BorderBrush = Brushes.Purple;
+                    MI.Background = ColorConverter.GetColorFromHexa("#FF060606");
+                    MI.Foreground = Brushes.White;
                     MI.Click += Table_Click;
                     //MI.
                 }
@@ -576,6 +579,20 @@ namespace Könyvtár
             _DbConnection.Close();
             _DBName = DBs[DataBasesLB.SelectedIndex];
             OpenDB();
+        }
+    }
+    public class ColorConverter
+    {
+        public static SolidColorBrush GetColorFromHexa(string hexaColor)
+        {
+            return new SolidColorBrush(
+                Color.FromArgb(
+                    Convert.ToByte(hexaColor.Substring(1, 2), 16),
+                    Convert.ToByte(hexaColor.Substring(3, 2), 16),
+                    Convert.ToByte(hexaColor.Substring(5, 2), 16),
+                    Convert.ToByte(hexaColor.Substring(7, 2), 16)
+                )
+            );
         }
     }
 }
