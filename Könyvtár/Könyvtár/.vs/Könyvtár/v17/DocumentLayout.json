@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|e:\\sulis dolgok\\ikt\\k\u00F6nyvt\u00E1r\\k\u00F6nyvt\u00E1r\\k\u00F6nyvt\u00E1r\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|solutionrelative:k\u00F6nyvt\u00E1r\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\k\u00F6nyvt\u00E1r\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|solutionrelative:k\u00F6nyvt\u00E1r\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\k\u00F6nyvt\u00E1r\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|solutionrelative:k\u00F6nyvt\u00E1r\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\k\u00F6nyvt\u00E1r\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D1862B0-AA09-4A2E-9293-5473BD64A7C2}|K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r.csproj|solutionrelative:k\u00F6nyvt\u00E1r\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "K\u00F6nyvt\u00E1r\\MainWindow.xaml",
+              "ToolTip": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\MainWindow.xaml",
+              "RelativeToolTip": "K\u00F6nyvt\u00E1r\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-28T21:34:21.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "K\u00F6nyvt\u00E1r\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\MainWindow.xaml.cs",
+              "RelativeToolTip": "K\u00F6nyvt\u00E1r\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAwwIQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:31:45.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Database.cs",
+              "DocumentMoniker": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\Database.cs",
+              "RelativeDocumentMoniker": "K\u00F6nyvt\u00E1r\\Database.cs",
+              "ToolTip": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\Database.cs",
+              "RelativeToolTip": "K\u00F6nyvt\u00E1r\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:14:15.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Table.cs",
+              "DocumentMoniker": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\Table.cs",
+              "RelativeDocumentMoniker": "K\u00F6nyvt\u00E1r\\Table.cs",
+              "ToolTip": "E:\\Sulis Dolgok\\IKT\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\Table.cs",
+              "RelativeToolTip": "K\u00F6nyvt\u00E1r\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:13:55.31Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

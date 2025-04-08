@@ -1,0 +1,67 @@
+﻿<Window x:Class="Könyvtár.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Könyvtár"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <ListBox Grid.Row="1" x:Name="DataListBox" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="DataListBox_SelectionChanged"></ListBox>
+        <ListBox Grid.Row="1" x:Name="DataBasesLB" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Collapsed" SelectionChanged="DataBasesLB_SelectionChanged"></ListBox>
+
+        <Menu x:Name="MainMenu" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <MenuItem x:Name="MainMenuItem" Header="File">
+                <MenuItem Header="SelectDatabase" Click="SelectDB_Click"></MenuItem>
+                <MenuItem Header="Exit"  Click="Exit_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Menu x:Name="DynamicMenu" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <MenuItem x:Name="DynamicMenuItem" Header="Tables">
+
+            </MenuItem>
+        </Menu>
+
+        <Grid x:Name="DetailsGrid" Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid x:Name="ButtonGrid" Grid.Column="1" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Button Content="Modify" x:Name="ModifyBtn" Grid.Column="0" Grid.Row="0" Click="ModifyBtn_Click"></Button>
+            <Button Content="Ok" x:Name="AddOkBtn" Grid.Column="0" Grid.Row="0" Click="AOkBtn_Click" Visibility="Collapsed"></Button>
+            <Button Content="Ok" x:Name="ModifyOkBtn" Grid.Column="0" Grid.Row="0" Click="MOkBtn_Click" Visibility="Collapsed"></Button>
+            <Button Content="Remove" x:Name="RemoveBtn" Grid.Column="1" Grid.Row="0" Click="RemoveBtn_Click"></Button>
+            <Button Content="Cancel" x:Name="CancelBtn" Grid.Column="1" Grid.Row="0" Click="CancelBtn_Click" Visibility="Collapsed"></Button>
+        </Grid>
+        <Button Content="Add..." x:Name="AddBtn" Grid.Column="0" Grid.Row="2" Click="AddBtn_Click"></Button>
+
+        <Grid x:Name="AddGrid" Grid.Column="1" Grid.Row="1" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </Grid>
+</Window>

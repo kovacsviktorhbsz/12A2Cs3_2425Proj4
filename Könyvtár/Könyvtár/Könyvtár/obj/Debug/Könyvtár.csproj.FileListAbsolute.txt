@@ -1,0 +1,93 @@
+Z:\IKT\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe.config
+Z:\IKT\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe
+Z:\IKT\Könyvtár\Könyvtár\bin\Debug\Könyvtár.pdb
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.AssemblyReference.cache
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\MainWindow.g.cs
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\App.g.cs
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár_MarkupCompile.cache
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár_MarkupCompile.lref
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\MainWindow.baml
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár.g.resources
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár.Properties.Resources.resources
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.GenerateResource.cache
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.CoreCompileInputs.cache
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár.exe
+Z:\IKT\Könyvtár\Könyvtár\obj\Debug\Könyvtár.pdb
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.AssemblyReference.cache
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\MainWindow.g.cs
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\App.g.cs
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár_MarkupCompile.cache
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár_MarkupCompile.lref
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.exe
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.pdb
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe.config
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Könyvtár.pdb
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Google.Protobuf.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\MySql.Data.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Renci.SshNet.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Buffers.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Memory.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Zstandard.Net.dll
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Google.Protobuf.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\MySql.Data.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\Renci.SshNet.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Buffers.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Memory.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\MainWindow.baml
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.g.resources
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.Properties.Resources.resources
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.GenerateResource.cache
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.CoreCompileInputs.cache
+C:\Users\fa_szoft2006\Desktop\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.CopyComplete
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe.config
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Könyvtár.exe
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Könyvtár.pdb
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\BouncyCastle.Crypto.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Google.Protobuf.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\K4os.Hash.xxHash.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\MySql.Data.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Renci.SshNet.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Buffers.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Memory.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Numerics.Vectors.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Ubiety.Dns.Core.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Zstandard.Net.dll
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Google.Protobuf.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\K4os.Hash.xxHash.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\MySql.Data.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\Renci.SshNet.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Buffers.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Memory.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Numerics.Vectors.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.AssemblyReference.cache
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\MainWindow.g.cs
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\App.g.cs
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár_MarkupCompile.cache
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár_MarkupCompile.lref
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\MainWindow.baml
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.g.resources
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.Properties.Resources.resources
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.GenerateResource.cache
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.CoreCompileInputs.cache
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.csproj.Up2Date
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.exe
+E:\Sulis Dolgok\IKT\Könyvtár\Könyvtár\Könyvtár\obj\Debug\Könyvtár.pdb

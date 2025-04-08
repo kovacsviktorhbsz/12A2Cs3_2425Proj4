@@ -1,0 +1,237 @@
+DROP DATABASE IF EXISTS Konyvtar;
+CREATE DATABASE Konyvtar;
+USE Konyvtar;
+
+-- Kiado Table
+CREATE TABLE Kiado
+(
+    KiadoID INT AUTO_INCREMENT PRIMARY KEY,
+    KiadoNev VarChar(40),
+    Telephely VarChar(40)
+);
+
+-- Szerzo Table
+CREATE TABLE Szerzo
+(
+    SzerzoID INT AUTO_INCREMENT PRIMARY KEY,
+    SzerzoNev VarChar(40),
+    SzulEv INT,
+    KiadottKonyvekSzama INT
+);
+
+-- Konyv Table
+CREATE TABLE Konyv
+(
+    KonyvID INT AUTO_INCREMENT PRIMARY KEY,
+    Cim VarChar(40),
+    SzerzoID INT,
+    KiadoID INT
+	-- FOREIGN KEY (SzerzoID) REFERENCES Szerzo(SzerzoID),
+	-- FOREIGN KEY (KiadoID) REFERENCES Kiado(KiadoID)
+);
+
+-- Vasarlo Table
+CREATE TABLE Vasarlo
+(
+    VasarloID INT AUTO_INCREMENT PRIMARY KEY,
+    VasarloNev VarChar(40),
+    Lakcim VarChar(40),
+    SzulEv INT
+);
+
+-- Eladas Table
+CREATE TABLE Eladas
+(
+    KonyvID INT,
+    VasarloID INT,
+    Datum VARCHAR(20),
+    Ar FLOAT,
+    Mennyiseg FLOAT,
+    -- FOREIGN KEY (KonyvID) REFERENCES Konyv(KonyvID),
+    -- FOREIGN KEY (VasarloID) REFERENCES Vasarlo(VasarloID),
+    PRIMARY KEY(VasarloID,KonyvID,Datum)
+);
+
+-- Adatok beszurasa
+
+USE konyvtar;
+INSERT INTO kiado (KiadoID, KiadoNev, Telephely) VALUES
+(1, 'Európa Kiadó', 'Budapest'),
+(2, 'Magvető Kiadó', 'Budapest'),
+(3, 'Alexandra Kiadó', 'Pécs'),
+(4, 'Libri Kiadó', 'Budapest'),
+(5, 'Park Kiadó', 'Budapest'),
+(6, 'Penguin Books', 'London'),
+(7, 'HarperCollins', 'New York'),
+(8, 'Random House', 'Berlin'),
+(9, 'Hachette Livre', 'Paris'),
+(10, 'Simon & Schuster', 'Toronto'),
+(11, 'Oxford University Press', 'Oxford'),
+(12, 'Bloomsbury Publishing', 'London'),
+(13, 'Macmillan Publishers', 'New York');
+
+INSERT INTO szerzo (SzerzoID, SzerzoNev, SzulEv, KiadottKonyvekSzama) VALUES
+(1, 'Jókai Mór', 1825, 50),
+(2, 'Kosztolányi Dezső', 1885, 20),
+(3, 'Rejtő Jenő', 1905, 30),
+(4, 'Móricz Zsigmond', 1879, 40),
+(5, 'Szabó Magda', 1917, 25),
+(6, 'William Shakespeare', 1564, 38),
+(7, 'Charles Dickens', 1812, 15),
+(8, 'Mark Twain', 1835, 28),
+(9, 'Jane Austen', 1775, 6),
+(10, 'Hemingway', 1899, 10),
+(11, 'Franz Kafka', 1883, 5),
+(12, 'George Orwell', 1903, 9),
+(13, 'F. Scott Fitzgerald', 1896, 7),
+(14, 'Virginia Woolf', 1882, 15),
+(15, 'Leo Tolstoy', 1828, 12),
+(16, 'Fyodor Dostoevsky', 1821, 10),
+(17, 'Gabriel García Márquez', 1927, 8),
+(18, 'Haruki Murakami', 1949, 15),
+(19, 'Agatha Christie', 1890, 66),
+(20, 'Stephen King', 1947, 63);
+
+INSERT INTO konyv (KonyvID, Cim, SzerzoID, KiadoID) VALUES
+(1, 'Az arany ember', 1, 1),
+(2, 'Egy magyar nábob', 1, 1),
+(3, 'A kőszívű ember fiai', 1, 1),
+(4, 'Fekete gyémántok', 1, 1),
+(5, 'Sárga rózsa', 1, 1),
+(6, 'Édes Anna', 2, 2),
+(7, 'Aranysárkány', 2, 2),
+(8, 'Nero, a véres költő', 2, 2),
+(9, 'Esti Kornél', 2, 2),
+(10, 'A szegény kisgyermek panaszai', 2, 2),
+(11, 'Piszkos Fred, a kapitány', 3, 3),
+(12, 'A három testőr Afrikában', 3, 3),
+(13, 'Az elveszett cirkáló', 3, 3),
+(14, 'Vesztegzár a Grand Hotelben', 3, 3),
+(15, 'A tizennégy karátos autó', 3, 3),
+(16, 'Légy jó mindhalálig', 4, 4),
+(17, 'Rokonok', 4, 4),
+(18, 'Árvácska', 4, 4),
+(19, 'Hét krajcár', 4, 4),
+(20, 'Sárarany', 4, 4),
+(21, 'Abigél', 5, 5),
+(22, 'Az ajtó', 5, 5),
+(23, 'Für Elise', 5, 5),
+(24, 'Tündér Lala', 5, 5),
+(25, 'Freskó', 5, 5),
+(26, 'Hamlet', 6, 6),
+(27, 'Rómeó és Júlia', 6, 6),
+(28, 'Szentivánéji álom', 6, 6),
+(29, 'Macbeth', 6, 6),
+(30, 'Othello', 6, 6),
+(31, 'Oliver Twist', 7, 7),
+(32, 'Szép remények', 7, 7),
+(33, 'Copperfield Dávid', 7, 7),
+(34, 'Karácsonyi ének', 7, 7),
+(35, 'Két város története', 7, 7),
+(36, 'Tom Sawyer kalandjai', 8, 8),
+(37, 'Huckleberry Finn kalandjai', 8, 8),
+(38, 'A herceg és a koldus', 8, 8),
+(39, 'Egy jenki Artúr király udvarában', 8, 8),
+(40, 'Titokzatos idegen', 8, 8),
+(41, 'Büszkeség és balítélet', 9, 9),
+(42, 'Értelem és érzelem', 9, 9),
+(43, 'Emma', 9, 9),
+(44, 'Mansfield Park', 9, 9),
+(45, 'Meggyőző érvek', 9, 9),
+(46, 'Az öreg halász és a tenger', 10, 10),
+(47, 'Akiért a harang szól', 10, 10),
+(48, 'Búcsú a fegyverektől', 10, 10),
+(49, 'A nap is felkel', 10, 10),
+(50, 'Halál délután', 10, 10),
+(51, 'A per', 11, 11),
+(52, '1984', 12, 12),
+(53, 'Állatfarm', 12, 12),
+(54, 'A nagy Gatsby', 13, 13),
+(55, 'Mrs Dalloway', 14, 1),
+(56, 'Anna Karenina', 15, 2),
+(57, 'Bűn és bűnhődés', 16, 3),
+(58, 'Száz év magány', 17, 4),
+(59, 'Norwegian Wood', 18, 5),
+(60, 'Tíz kicsi néger', 19, 6),
+(61, 'A ragyogás', 20, 7),
+(62, 'Carrie', 20, 7),
+(63, 'Az', 20, 7),
+(64, 'A Setét Torony', 20, 7);
+
+INSERT INTO eladas (KonyvID, VasarloID, Datum, Mennyiseg, Ar) VALUES
+(1, 1, '2024-01-15', 150000, 3500),
+(2, 2, '2024-01-20', 200000, 4200),
+(3, 3, '2024-02-10', 125000, 3900),
+(4, 4, '2024-02-12', 175000, 3100),
+(5, 5, '2024-03-05', 300000, 2800),
+(6, 6, '2024-03-10', 400000, 4500),
+(7, 7, '2024-03-15', 350000, 3800),
+(8, 8, '2024-04-01', 275000, 4100),
+(9, 9, '2024-04-10', 450000, 3600),
+(10, 10, '2024-04-18', 200000, 3900),
+(11, 1, '2024-05-02', 600000, 3000),
+(12, 2, '2024-05-06', 320000, 2900),
+(13, 3, '2024-05-10', 410000, 2700),
+(14, 4, '2024-06-01', 520000, 3100),
+(15, 5, '2024-06-05', 210000, 3200),
+(16, 6, '2024-06-10', 750000, 4000),
+(17, 7, '2024-06-15', 680000, 3900),
+(18, 8, '2024-07-01', 450000, 4100),
+(19, 9, '2024-07-05', 500000, 4500),
+(20, 10, '2024-07-15', 700000, 3500),
+(21, 1, '2024-08-02', 980000, 3700),
+(22, 2, '2024-08-06', 450000, 3400),
+(23, 3, '2024-08-10', 330000, 3300),
+(24, 4, '2024-08-15', 620000, 3600),
+(25, 5, '2024-09-01', 2000000, 4000),
+(26, 6, '2024-09-05', 780000, 3800),
+(27, 7, '2024-09-10', 420000, 3900),
+(28, 8, '2024-09-15', 560000, 4100),
+(29, 9, '2024-10-01', 610000, 4300),
+(30, 10, '2024-10-05', 1300000, 3200),
+(31, 1, '2024-10-10', 990000, 3100),
+(32, 2, '2024-10-15', 1000000, 2800),
+(33, 3, '2024-11-01', 670000, 2700),
+(34, 4, '2024-11-05', 500000, 2900),
+(35, 5, '2024-11-10', 1200000, 3000),
+(36, 6, '2024-11-15', 400000, 4100),
+(37, 7, '2024-12-01', 780000, 3900),
+(38, 8, '2024-12-05', 900000, 4200),
+(39, 9, '2024-12-10', 620000, 3600),
+(40, 10, '2024-12-15', 700000, 3700),
+(41, 1, '2025-01-01', 450000, 3300),
+(42, 2, '2025-01-05', 300000, 3400),
+(43, 3, '2025-01-10', 800000, 3100),
+(44, 4, '2025-01-15', 920000, 3200),
+(45, 5, '2025-02-01', 1100000, 3500),
+(46, 6, '2025-02-05', 750000, 3600),
+(47, 7, '2025-02-10', 620000, 3400),
+(48, 8, '2025-02-15', 700000, 3800),
+(49, 9, '2025-03-01', 1800000, 4000),
+(50, 10, '2025-03-05', 920000, 3900),
+(51, 1, '2025-03-10', 600000, 4100),
+(52, 2, '2025-03-15', 850000, 3700),
+(53, 3, '2025-04-01', 730000, 3800),
+(54, 4, '2025-04-05', 910000, 4200),
+(55, 5, '2025-04-10', 680000, 3300),
+(56, 6, '2025-04-15', 780000, 3100),
+(57, 7, '2025-05-01', 860000, 2900),
+(58, 8, '2025-05-05', 1200000, 3000),
+(59, 9, '2025-05-10', 670000, 2700),
+(60, 10, '2025-05-15', 1550000, 2800),
+(61, 1, '2025-06-01', 1400000, 3500),
+(62, 2, '2025-06-05', 750000, 3700),
+(63, 3, '2025-06-10', 830000, 3600),
+(64, 4, '2025-06-15', 600000, 3800);
+
+INSERT INTO vasarlo (VasarloID, VasarloNev, SzulEv, Lakcim) VALUES
+(1, 'Kovács Péter', 1985, 'Budapest, Andrássy út 10.'),
+(2, 'Nagy Anna', 1992, 'Debrecen, Piac utca 5.'),
+(3, 'Tóth Márk', 1988, 'Szeged, Kossuth tér 8.'),
+(4, 'Szabó Katalin', 1979, 'Győr, Baross Gábor út 3.'),
+(5, 'Horváth László', 1995, 'Pécs, Rákóczi út 12.'),
+(6, 'Mészáros Zsófia', 1983, 'Miskolc, Szent István tér 1.'),
+(7, 'Balogh Ferenc', 1990, 'Székesfehérvár, Palotai út 7.'),
+(8, 'Kiss Dóra', 1987, 'Eger, Bajcsy-Zsilinszky utca 2.'),
+(9, 'Varga Ádám', 2000, 'Nyíregyháza, Bethlen Gábor utca 14.'),
+(10, 'Farkas Noémi', 1993, 'Kecskemét, Izsáki út 9.');
