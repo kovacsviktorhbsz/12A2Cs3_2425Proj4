@@ -55,6 +55,8 @@ namespace Könyvtár
             {
                 ListBoxItem LBI = new ListBoxItem();
                 LBI.Content = LBDB;
+                LBI.Foreground = Brushes.White;
+                Background = Brushes.Transparent;
                 DataBasesLB.Items.Add(LBI);
             }
             reader.Close();
@@ -128,6 +130,8 @@ namespace Könyvtár
             {
                 ListBoxItem LBI = new ListBoxItem();
                 LBI.Content = reader.GetString(0);
+                Background = Brushes.Transparent;
+                LBI.Foreground = Brushes.White;
                 DataListBox.Items.Add(LBI);
             }
             reader.Close();
@@ -239,6 +243,7 @@ namespace Könyvtár
                 Label FrstLabel = new Label();
                 FrstLabel.Content = $"{Table.header[i]}";
                 FrstLabel.Name = $"a{i}1st";
+                FrstLabel.Foreground = Brushes.White;
                 Grid.SetRow(FrstLabel, i);
                 GridName.Children.Add(FrstLabel);
 
@@ -290,6 +295,7 @@ namespace Könyvtár
             while (reader.Read()) 
             {
                 ListBoxItem LBI = new ListBoxItem();
+                LBI.Foreground = Brushes.White;
                 LBI.Content = reader.GetString(0);
                 DataListBox.Items.Add(LBI);
             }

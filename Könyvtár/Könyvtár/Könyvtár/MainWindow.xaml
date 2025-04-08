@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
 
         <ListBox Grid.Row="1" x:Name="DataListBox" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="DataListBox_SelectionChanged" Background="#FF505050"></ListBox>
-        <ListBox Grid.Row="1" x:Name="DataBasesLB" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Collapsed" SelectionChanged="DataBasesLB_SelectionChanged"></ListBox>
+        <ListBox Grid.Row="1" x:Name="DataBasesLB" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Visibility="Collapsed" SelectionChanged="DataBasesLB_SelectionChanged" Background="#FF505050"></ListBox>
 
         <Menu x:Name="MainMenu" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Background="#FF060606" Foreground="White">
             <MenuItem x:Name="MainMenuItem" Header="File">
