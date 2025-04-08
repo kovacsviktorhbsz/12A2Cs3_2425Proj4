@@ -37,8 +37,7 @@
               "ToolTip": "E:\\Sulis Dolgok\\Repos\\12A2Cs3_2425Proj4\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\MainWindow.xaml",
               "RelativeToolTip": "K\u00F6nyvt\u00E1r\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-28T21:34:21.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T21:34:21.633Z"
             },
             {
               "$type": "Document",
@@ -48,7 +47,7 @@
               "RelativeDocumentMoniker": "K\u00F6nyvt\u00E1r\\MainWindow.xaml.cs",
               "ToolTip": "E:\\Sulis Dolgok\\Repos\\12A2Cs3_2425Proj4\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\K\u00F6nyvt\u00E1r\\MainWindow.xaml.cs",
               "RelativeToolTip": "K\u00F6nyvt\u00E1r\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAwwKUAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAwwLQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T18:31:45.978Z",
               "EditorCaption": ""
@@ -63,8 +62,7 @@
               "RelativeToolTip": "K\u00F6nyvt\u00E1r\\Database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T18:14:15.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T18:14:15.156Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "K\u00F6nyvt\u00E1r\\Table.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T18:13:55.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T18:13:55.31Z"
             }
           ]
         }
