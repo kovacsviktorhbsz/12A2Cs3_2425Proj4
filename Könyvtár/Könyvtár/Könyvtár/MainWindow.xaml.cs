@@ -28,7 +28,7 @@ namespace Könyvtár
     {
 
         //Portot manuálisan át kell állítani                      ----
-        private string _connectionString = "server=localhost;port=3306;uid=root;pwd=;Convert Zero Datetime=True;database=konyvtar";
+        private string _connectionString = "server=localhost;port=3307;uid=root;pwd=;database=konyvtar";
         private string _DBName = "konyvtar";
         private MySqlConnection _DbConnection;
         private Database DB;

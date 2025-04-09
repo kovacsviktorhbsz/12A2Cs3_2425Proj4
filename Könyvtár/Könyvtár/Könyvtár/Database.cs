@@ -16,7 +16,7 @@ namespace Könyvtár
         public Database(string name) 
         {
             Name = name;
-            connection = $"server=localhost;port=3306;uid=root;pwd=;database={this.Name}";
+            connection = $"server=localhost;port=3307;uid=root;pwd=;database={this.Name}";
         }
     }
 }
